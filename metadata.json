@@ -1,0 +1,8 @@
+{
+  "name": "AnimalMaster",
+  "description": "Plataforma de educación animal con mentoría IA personalizada. Transformación guiada por IA para el bienestar animal.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}

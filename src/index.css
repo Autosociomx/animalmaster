@@ -1,0 +1,29 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap');
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-serif: "Playfair Display", serif;
+
+  --color-petroleum: #1e3a5f;
+  --color-gold: #c9a227;
+  --color-cream: #f5f5dc;
+  --color-ink: #141414;
+}
+
+@layer base {
+  body {
+    @apply bg-cream text-ink font-sans;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-serif;
+  }
+}
+
+.glass {
+  @apply bg-white/10 backdrop-blur-md border border-white/20;
+}
+
+.gold-gradient {
+  background: linear-gradient(135deg, #c9a227 0%, #e5c158 50%, #c9a227 100%);
+}
